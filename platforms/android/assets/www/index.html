@@ -46,16 +46,19 @@ body{
   margin: 0px;
 }
  object{
-   height: 500px;
+   height: 100vh;
 display: block;
 margin: 0px;
 padding: 0px;
  }
 </style>
 <body>
-  <object type="text/html" width="100%" id="objIframe" data="http://ghc.zenc.co">
+  <div id="content" style="height: auto; width: auto; overflow: auto; -webkit-overflow-scrolling:touch;">
+    <iframe src="http://ghc.zenc.co" height="100%" scrolling="no" width="100% "> iframe content here </iframe>
+  </div>
+  <!-- <object type="text/html" width="100%" data="http://ghc.zenc.co">
       <p>Si puede leer este mensaje es que su navegador no soporta correctamente el elemento <code>object</code></p>
-  </object>
+  </object> -->
     <!-- <div class="app">
         <h1>PhoneGap</h1>
         <div id="deviceready" class="blink">
@@ -67,7 +70,6 @@ padding: 0px;
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
         app.initialize();
-        document.getElementById('objIframe').height = document.documentElement.scrollHeight + "px";
     </script>
 </body>
 

@@ -13,9 +13,6 @@
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
-        },
         "cordova-plugin-contacts": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
@@ -65,6 +62,12 @@
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
         "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "cordova-plugin-console": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },
